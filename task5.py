@@ -9,7 +9,6 @@ x = y = 1
 for i in range(n):
     list.append(x)
     x,y = y, x+y
-print(list)
 print()
 x=0
 y=1

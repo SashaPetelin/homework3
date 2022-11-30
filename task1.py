@@ -7,6 +7,4 @@ sum = 0
 for i in range(len(list)):
     if i%2>0:
         sum+=list[i]
-print(sum)
-
-print(list[-1])
+print("Сумма чисел на нечетных позициях", sum)
